@@ -1,29 +1,38 @@
 header{
-    margin-left: 400;
-
+    text-align: center;
 }
-#main{
+/* #main{
     margin-left: 50;
     margin-right:50;
-}
+} */
 footer{
-    margin-left: 200;
-
+    text-align: center;
+}
+#main img{
+    border-radius: 50% 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width:auto;
 }
 .center{
-    margin-left:350;   
+    text-align: center;
 }
 .map{
-    margin-left: 110;
-    margin-right:100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .content{
     margin-left: 50;
-    margin-right:50;
+    margin-right:50; 
 }
-.mid{
-    margin-left:200;   
-}
-.midicons{
-    margin-left:125; 
+@media screen and (max-width: 762px){
+    #main img {
+        width: auto;
+    }
+    .map{
+        width: auto;
+    }
 }
